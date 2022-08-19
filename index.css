@@ -1,0 +1,186 @@
+html {
+  font-family: Montserrat;
+  background-image: url("./assets/109\ 1.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.17) 0%,
+    rgba(255, 255, 255, 0.76) 32.92%,
+    rgba(255, 255, 255, 0.9) 59.51%,
+    rgba(255, 255, 255, 0.87) 103.7%
+  );
+  backdrop-filter: blur(18px);
+}
+footer {
+  padding: 0px;
+  margin: 0px;
+  font-family: Montserrat;
+  padding: 100px 100px 50px 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container {
+  padding-left: 112px;
+}
+
+.logo {
+  padding-top: 76px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+}
+.text-block-title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #1f294a;
+}
+.text-block {
+  width: 560px;
+}
+.text-block ul {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1f294a;
+  padding-left: 20px;
+  margin-bottom: 45px;
+}
+.after-app-store-button-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: rgba(31, 41, 74, 0.5);
+}
+.images-phone-block {
+  position: relative;
+  width: 733px;
+  height: 650px;
+  background: url("./assets/bigPhone.png") 50% no-repeat;
+  background-size: contain;
+}
+.blue-ellipse {
+  position: absolute;
+  left: 15%;
+  top: 22%;
+  z-index: -1;
+}
+.blue-ellipse-mini {
+  position: absolute;
+  left: 70%;
+  top: -5%;
+  width: 42px;
+}
+.green-ellipse {
+  position: absolute;
+  left: 25%;
+  top: 22%;
+  z-index: -2;
+}
+.green-ellipse-mini {
+  position: absolute;
+  left: 5%;
+  top: 50.88%;
+  width: 42px;
+}
+.pink-ellipse {
+  position: absolute;
+  left: 33%;
+  top: 10%;
+  z-index: -3;
+}
+.pink-ellipse-mini {
+  position: absolute;
+  left: 75%;
+  top: 100%;
+  width: 42px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1f294a;
+}
+.social-block img {
+  margin: 0px 10px 0px 10px;
+}
+
+@media (max-width: 1270px) {
+  .logo {
+    padding-top: 76px;
+    display: flex;
+    justify-content: center;
+  }
+  .main-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container {
+    padding-left: 0px;
+  }
+  .appstore-button {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .logo {
+    padding-top: calc(20px + (76 - 20) * ((100vw - 320px) / (850 - 320)));
+  }
+  .text-block-title {
+    font-size: calc(24px + (48 - 24) * ((100vw - 320px) / (850 - 320)));
+  }
+  .text-block {
+    width: calc(300px + (560 - 300) * ((100vw - 320px) / (850 - 320)));
+  }
+  .text-block ul {
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (850 - 320)));
+  }
+  .after-app-store-button-text {
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (850 - 320)));
+    text-align: center;
+  }
+  .images-phone-block {
+    width: calc(250px + (733 - 100) * ((100vw - 320px) / (850 - 320)));
+    height: calc(250px + (650 - 100) * ((100vw - 320px) / (850 - 320)));
+  }
+  .blue-ellipse {
+    width: calc(30% + (100 - 30) * ((100vw - 320px) / (850 - 320)));
+  }
+  .blue-ellipse-mini {
+    width: calc(10px + (42 - 10) * ((100vw - 320px) / (850 - 320)));
+  }
+  .green-ellipse {
+    width: calc(30% + (100 - 30) * ((100vw - 320px) / (850 - 320)));
+  }
+  .green-ellipse-mini {
+    width: calc(10px + (42 - 10) * ((100vw - 320px) / (850 - 320)));
+  }
+  .pink-ellipse {
+    width: calc(30% + (100 - 30) * ((100vw - 320px) / (850 - 320)));
+  }
+  .pink-ellipse-mini {
+    width: calc(10px + (42 - 10) * ((100vw - 320px) / (850 - 320)));
+  }
+  footer {
+    padding: 60px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-text {
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (850 - 320)));
+  }
+}
