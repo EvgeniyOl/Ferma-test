@@ -136,44 +136,44 @@ footer {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 860px) {
   .logo {
-    padding-top: calc(20px + (76 - 20) * ((100vw - 320px) / (850 - 320)));
+    padding-top: calc(20px + (76 - 20) * ((100vw - 320px) / (860 - 320)));
   }
   .text-block-title {
-    font-size: calc(24px + (48 - 24) * ((100vw - 320px) / (850 - 320)));
+    font-size: calc(24px + (48 - 24) * ((100vw - 320px) / (860 - 320)));
   }
   .text-block {
-    width: calc(300px + (560 - 300) * ((100vw - 320px) / (850 - 320)));
+    width: calc(300px + (560 - 300) * ((100vw - 320px) / (860 - 320)));
   }
   .text-block ul {
-    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (850 - 320)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (860 - 320)));
   }
   .after-app-store-button-text {
-    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (850 - 320)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (860 - 320)));
     text-align: center;
   }
   .images-phone-block {
-    width: calc(250px + (700 - 100) * ((100vw - 320px) / (850 - 320)));
-    height: calc(250px + (650 - 100) * ((100vw - 320px) / (850 - 320)));
+    width: calc(250px + (700 - 100) * ((100vw - 320px) / (860 - 320)));
+    height: calc(250px + (650 - 100) * ((100vw - 320px) / (860 - 320)));
   }
   .blue-ellipse {
-    width: calc(30% + (100 - 30) * ((100vw - 320px) / (850 - 320)));
+    width: calc(30% + (100 - 30) * ((100vw - 320px) / (860 - 320)));
   }
   .blue-ellipse-mini {
-    width: calc(10px + (42 - 10) * ((100vw - 320px) / (850 - 320)));
+    width: calc(10px + (42 - 10) * ((100vw - 320px) / (860 - 320)));
   }
   .green-ellipse {
-    width: calc(30% + (100 - 30) * ((100vw - 320px) / (850 - 320)));
+    width: calc(50% + (100 - 50) * ((100vw - 320px) / (860 - 320)));
   }
   .green-ellipse-mini {
-    width: calc(10px + (42 - 10) * ((100vw - 320px) / (850 - 320)));
+    width: calc(10px + (42 - 10) * ((100vw - 320px) / (860 - 320)));
   }
   .pink-ellipse {
-    width: calc(30% + (100 - 30) * ((100vw - 320px) / (850 - 320)));
+    width: calc(30% + (100 - 30) * ((100vw - 320px) / (860 - 320)));
   }
   .pink-ellipse-mini {
-    width: calc(10px + (42 - 10) * ((100vw - 320px) / (850 - 320)));
+    width: calc(10px + (42 - 10) * ((100vw - 320px) / (860 - 320)));
   }
   footer {
     padding: 60px 20px 50px 20px;
@@ -181,6 +181,6 @@ footer {
     flex-direction: column;
   }
   .footer-text {
-    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (850 - 320)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (860 - 320)));
   }
 }
