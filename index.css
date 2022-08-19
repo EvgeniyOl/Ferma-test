@@ -154,7 +154,7 @@ footer {
     text-align: center;
   }
   .images-phone-block {
-    width: calc(250px + (733 - 100) * ((100vw - 320px) / (850 - 320)));
+    width: calc(250px + (700 - 100) * ((100vw - 320px) / (850 - 320)));
     height: calc(250px + (650 - 100) * ((100vw - 320px) / (850 - 320)));
   }
   .blue-ellipse {
